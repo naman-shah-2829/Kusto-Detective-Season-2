@@ -27,7 +27,7 @@ Answer the question: Who is the detective that earned most money in 2022?
 ```
 ## Solution
 
-```
+```kusto
 let bounty_details = DetectiveCases
 | where EventType == "CaseOpened"
 | extend Bounty = toreal(Properties.Bounty)
