@@ -1,1 +1,1 @@
-# Kusto-Detective-Season-2
+# Kusto Detective Agency Challenges and Solutions - Season 2
