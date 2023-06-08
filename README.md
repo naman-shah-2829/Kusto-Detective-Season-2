@@ -1,0 +1,1 @@
+# Kusto-Detective-Season-2
