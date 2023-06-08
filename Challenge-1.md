@@ -34,7 +34,7 @@ Answer the question - What is the total bills amount due in April?
 ```
 ## Solution
 
-```
+```kusto
 Consumption
 | summarize max(Consumed) by HouseholdId, Timestamp, MeterType
 | join kind = inner Costs on MeterType
