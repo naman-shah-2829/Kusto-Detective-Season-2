@@ -48,3 +48,6 @@ PhoneCalls
 | summarize Call_Count = dcount(Destination) by Origin
 | order by Call_Count
 ```
+#### Note:
+> Found a list of suspected callers, the second caller on the list is the phishing scammer.
+> Will analyze and update query here to narrow down our search to the phishing scammer only.
